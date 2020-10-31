@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundColor(Color.red)
             Button(action:{self.labelText = "Yes Tapped!"}){
-                Text("Let's Tap!!!!")
+                Text("Let's Tap!")
                     .font(.footnote)
                     .fontWeight(.thin)
                     .foregroundColor(Color.black)
