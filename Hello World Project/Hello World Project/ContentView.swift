@@ -9,14 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var labelText = "Hello SwiftUI!!!"
+    @State var labelText = "Hello SwiftUI!"
     
     var body: some View {
         VStack {
             Text(labelText)
                 .font(.largeTitle)
                 .foregroundColor(Color.red)
-            Button(action:{self.labelText = "Yes Tapped!!!!"}){
+            Button(action:{self.labelText = "Yes Tapped!"}){
                 Text("Let's Tap!!!!")
                     .font(.footnote)
                     .fontWeight(.thin)
