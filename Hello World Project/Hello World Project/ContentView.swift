@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Hello World Project
 //
-//  Created by 安井梨沙子 on 2020/10/31.
+//  Created by myryricha5 on 2020/10/31.
 //  Copyright © 2020 example.com. All rights reserved.
 //
 
