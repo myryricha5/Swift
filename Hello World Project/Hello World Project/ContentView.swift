@@ -9,8 +9,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var labelText = "Hello SwiftUI"
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text(labelText)
+                .font(.largeTitle)
+                .foregroundColor(Color.red)
+            Button(action:{self.labelText = "Yes Tapped!"}){
+                Text("Tap!")
+                    .font(.footnote)
+                    .fontWeight(.thin)
+                    .foregroundColor(Color.black)
+                    .frame(width: 70, height: 20)
+                    .border(Color.gray)
+            }
+        }
     }
 }
 
