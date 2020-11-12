@@ -2,19 +2,23 @@
 //  TapButtonExample.swift
 //  Hello World Project
 //
-//  Created by 安井梨沙子 on 2020/11/12.
+//  Created by myryricha5 on 2020/11/12.
 //  Copyright © 2020 example.com. All rights reserved.
 //
 
 import SwiftUI
 
 struct TapButtonExample: View {
+    
+    //Swift Uはビューが状態を持っていないので更新されない
+    //@Stateで状態を保持することができる（プロパティラッパーはローカル変数に対応していないのでプロパティにする必要あり）
+    @State var showDetails = false
+    
     var body: some View {
-        var showDetails = false
-        return VStack{
-            //Swift Uはビューが状態を持っていないので更新されない
+        
+        VStack{
             Button(action: {
-                showDetails.toggle()
+                self.showDetails.toggle()
             }) {
                 Text("詳細表示")
             }
