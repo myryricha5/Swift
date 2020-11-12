@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C00686B255D7F1B005EF4BD /* TapButtonExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C00686A255D7F1B005EF4BD /* TapButtonExample.swift */; };
 		1C3D5094254D9FD400CFBEDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D5093254D9FD400CFBEDA /* AppDelegate.swift */; };
 		1C3D5096254D9FD400CFBEDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D5095254D9FD400CFBEDA /* SceneDelegate.swift */; };
 		1C3D5098254D9FD400CFBEDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3D5097254D9FD400CFBEDA /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C00686A255D7F1B005EF4BD /* TapButtonExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonExample.swift; sourceTree = "<group>"; };
 		1C3D5090254D9FD400CFBEDA /* Hello World Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C3D5093254D9FD400CFBEDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C3D5095254D9FD400CFBEDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				1C3D5093254D9FD400CFBEDA /* AppDelegate.swift */,
 				1C3D5095254D9FD400CFBEDA /* SceneDelegate.swift */,
 				1C3D5097254D9FD400CFBEDA /* ContentView.swift */,
+				1C00686A255D7F1B005EF4BD /* TapButtonExample.swift */,
 				1C3D5099254D9FD500CFBEDA /* Assets.xcassets */,
 				1C3D509E254D9FD500CFBEDA /* LaunchScreen.storyboard */,
 				1C3D50A1254D9FD500CFBEDA /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				1C3D5094254D9FD400CFBEDA /* AppDelegate.swift in Sources */,
 				1C3D5096254D9FD400CFBEDA /* SceneDelegate.swift in Sources */,
+				1C00686B255D7F1B005EF4BD /* TapButtonExample.swift in Sources */,
 				1C3D5098254D9FD400CFBEDA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
