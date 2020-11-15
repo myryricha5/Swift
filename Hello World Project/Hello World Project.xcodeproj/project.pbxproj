@@ -16,6 +16,8 @@
 		1C3D509A254D9FD500CFBEDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D5099254D9FD500CFBEDA /* Assets.xcassets */; };
 		1C3D509D254D9FD500CFBEDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D509C254D9FD500CFBEDA /* Preview Assets.xcassets */; };
 		1C3D50A0254D9FD500CFBEDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3D509E254D9FD500CFBEDA /* LaunchScreen.storyboard */; };
+		1C7BC31B256164A90008279C /* TextFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC31A256164A90008279C /* TextFieldExample.swift */; };
+		1C7BC31D256167E80008279C /* SecureFieldExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC31C256167E80008279C /* SecureFieldExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		1C3D509C254D9FD500CFBEDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C3D509F254D9FD500CFBEDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C3D50A1254D9FD500CFBEDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C7BC31A256164A90008279C /* TextFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExample.swift; sourceTree = "<group>"; };
+		1C7BC31C256167E80008279C /* SecureFieldExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				1C3D50A1254D9FD500CFBEDA /* Info.plist */,
 				1C3D509B254D9FD500CFBEDA /* Preview Content */,
 				1C00686E255D8B2C005EF4BD /* ToggleExample.swift */,
+				1C7BC31A256164A90008279C /* TextFieldExample.swift */,
+				1C7BC31C256167E80008279C /* SecureFieldExample.swift */,
 			);
 			path = "Hello World Project";
 			sourceTree = "<group>";
@@ -157,6 +163,8 @@
 			files = (
 				1C3D5094254D9FD400CFBEDA /* AppDelegate.swift in Sources */,
 				1C00686D255D85CA005EF4BD /* ImageButtonExample.swift in Sources */,
+				1C7BC31D256167E80008279C /* SecureFieldExample.swift in Sources */,
+				1C7BC31B256164A90008279C /* TextFieldExample.swift in Sources */,
 				1C3D5096254D9FD400CFBEDA /* SceneDelegate.swift in Sources */,
 				1C00686B255D7F1B005EF4BD /* TapButtonExample.swift in Sources */,
 				1C00686F255D8B2C005EF4BD /* ToggleExample.swift in Sources */,
