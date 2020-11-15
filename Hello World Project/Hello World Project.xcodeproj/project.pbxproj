@@ -23,6 +23,8 @@
 		1C7BC32325616DEB0008279C /* PickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC32225616DEB0008279C /* PickerExample.swift */; };
 		1C7BC32525616FC30008279C /* PickerImageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC32425616FC30008279C /* PickerImageExample.swift */; };
 		1C7BC327256172DA0008279C /* ForEachExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC326256172DA0008279C /* ForEachExample.swift */; };
+		1C7BC3292561764E0008279C /* DatePickerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC3282561764E0008279C /* DatePickerExample.swift */; };
+		1C7BC32B25617CA80008279C /* StepperExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7BC32A25617CA80008279C /* StepperExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		1C7BC32225616DEB0008279C /* PickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExample.swift; sourceTree = "<group>"; };
 		1C7BC32425616FC30008279C /* PickerImageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImageExample.swift; sourceTree = "<group>"; };
 		1C7BC326256172DA0008279C /* ForEachExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachExample.swift; sourceTree = "<group>"; };
+		1C7BC3282561764E0008279C /* DatePickerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExample.swift; sourceTree = "<group>"; };
+		1C7BC32A25617CA80008279C /* StepperExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				1C7BC32225616DEB0008279C /* PickerExample.swift */,
 				1C7BC32425616FC30008279C /* PickerImageExample.swift */,
 				1C7BC326256172DA0008279C /* ForEachExample.swift */,
+				1C7BC3282561764E0008279C /* DatePickerExample.swift */,
+				1C7BC32A25617CA80008279C /* StepperExample.swift */,
 			);
 			path = "Hello World Project";
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 				1C7BC32525616FC30008279C /* PickerImageExample.swift in Sources */,
 				1C7BC31F2561695D0008279C /* SliderExample.swift in Sources */,
 				1C3D5094254D9FD400CFBEDA /* AppDelegate.swift in Sources */,
+				1C7BC32B25617CA80008279C /* StepperExample.swift in Sources */,
 				1C7BC32325616DEB0008279C /* PickerExample.swift in Sources */,
 				1C00686D255D85CA005EF4BD /* ImageButtonExample.swift in Sources */,
 				1C7BC327256172DA0008279C /* ForEachExample.swift in Sources */,
@@ -186,6 +193,7 @@
 				1C7BC31B256164A90008279C /* TextFieldExample.swift in Sources */,
 				1C3D5096254D9FD400CFBEDA /* SceneDelegate.swift in Sources */,
 				1C00686B255D7F1B005EF4BD /* TapButtonExample.swift in Sources */,
+				1C7BC3292561764E0008279C /* DatePickerExample.swift in Sources */,
 				1C00686F255D8B2C005EF4BD /* ToggleExample.swift in Sources */,
 				1C3D5098254D9FD400CFBEDA /* ContentView.swift in Sources */,
 				1C7BC32125616A1E0008279C /* SliderLabelSample.swift in Sources */,
